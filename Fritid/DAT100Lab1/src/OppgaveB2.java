@@ -1,8 +1,7 @@
-package no.hvl.dat100;
 
 import static javax.swing.JOptionPane.*;
 
-public class Login {
+public class OppgaveB2 {
 
 	public static void main(String[] args) {
 		String riktigBrukernavn = "Marius";
