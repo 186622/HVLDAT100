@@ -1,10 +1,17 @@
+
+import easygraphics.*;
+
 public class OppgaveB4 extends EasyGraphics {
+	
+	
 
   public static void main(String[] args) {
     launch(args);
   }
 
   public void run() {
+	  
+	  
     makeWindow("Det franske flagget");
 
     setColor(0, 0, 255);
