@@ -1,9 +1,18 @@
+public class OppgaveB4 extends EasyGraphics {
 
-public class OppgaveB4 {
+  public static void main(String[] args) {
+    launch(args);
+  }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+  public void run() {
+    makeWindow("Det franske flagget");
 
-	}
+    setColor(0, 0, 255);
+    fillRectangle(50, 50, 100, 200);
+    setColor(255, 0, 0);
+    fillRectangle(250, 50, 100, 200);
+    setColor(0, 0, 0);
+    drawRectangle(50, 50, 300, 200);
+  }
 
 }
