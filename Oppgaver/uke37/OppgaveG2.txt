@@ -1,0 +1,6 @@
+D et som blir skrevet ut er:
+55
+false
+true
+10
+
