@@ -1,0 +1,2 @@
+Det som vil skjer her er at koden skriver ut hvilke linje nummer vi er på.
+starter på 1 til 10. Etter linje 4 skrives det ut ett mellom, og det samme etter linje 8.
