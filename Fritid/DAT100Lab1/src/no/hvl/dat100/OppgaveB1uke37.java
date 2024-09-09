@@ -19,3 +19,7 @@ public class OppgaveB1uke37 {
 	    }
 
 }
+
+
+// Jeg merker at når jeg har flere breakpoints. Vil den ikke steppe over når vi har kommet forbi et breakpoint.
+// Dette er nok fordi at eclipse stopper koden ved hvert pause punkt for å inspisere variablene. Som er nyttig i debugging.
