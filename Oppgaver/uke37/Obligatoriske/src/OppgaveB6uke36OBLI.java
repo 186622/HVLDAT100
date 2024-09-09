@@ -1,4 +1,4 @@
-package no.hvl.dat100;
+
 import static javax.swing.JOptionPane.*;
 
 public class OppgaveB6uke36OBLI {
