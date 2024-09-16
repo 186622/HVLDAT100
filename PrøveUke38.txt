@@ -1,0 +1,157 @@
+Oppgave 1:
+a) 
+Int a = 10;
+
+If (a < 0 ) then {
+ System.out.println( a + " Er mindre enn 0");
+
+} else if (a == 0) then {
+
+ System.out.println( a + " Er lik 0");
+} else {
+ System.out.println(a + "Er Større enn 0");
+}
+
+
+
+
+b) 
+Int a = 10;
+
+if ( a ≤ 8 && a ≥ 5) then {
+ System.out.println(a + " Er utenfor  intervallet");
+} else {
+ System.out.println(a + " Er innenfor intervallet");
+}
+
+
+
+
+C) 
+
+
+int a = 3
+Switch (a) {
+Case 0: 
+system.out.println("null")
+Break;
+Case 1: 
+system.out.println("en")
+Break;
+Case 2: 
+system.out.println("to")
+Break;
+Case 2: 
+system.out.println("tre")
+Break;
+Case 3: 
+system.out.println("fire")
+Break;
+Default:
+system.out.println("ulovlig verdi")
+
+}
+
+
+
+Oppgave 2
+
+
+for ( int i = 2; i < 6; i++) {
+int resultat = 10/i
+System.out.println("10 /  " + i + " = " + resultat);
+
+}
+
+
+
+Oppgave 3:
+
+int antall =  0;
+Int sum = 0;
+While (!tallStrengInt == 0)  {
+String tallStreng = showInputDialog("Skriv in ett heltall:");
+Int tallStrengInt = Integer.parseInt(tallStreng);
+
+sum += tallStrengInt
+antall++
+
+
+
+
+}
+System.out.println("Antall tall: " + antall)
+System.out.println("Sum: " + sum
+
+
+
+
+Oppgave 4:
+
+
+A) 
+
+Public static int minste(int a, int b, int c) {
+int tallEn = a;
+intTallTo = b;
+intTallTre = c;
+
+
+
+int minstAvEnOgTo = math.min(intTallEn, intTallTo);
+Int minst = math.min(minstAvEnOgTo, intTallTre);
+
+
+Return minst;
+
+
+
+
+}
+
+
+
+
+b)
+
+Public static void main(String[], args) {
+
+minste(a, b, c);
+
+System.out.println(minste)
+}
+
+
+
+
+Oppgave 5:
+A) 
+
+
+
+public static double finnAreal(double radius); {
+
+return Math.pi * Math.pow(radius, 2)
+
+
+}
+
+b)
+
+
+public static void main(String[], args) {
+
+double radius = 1.5;
+
+Double resultat = finnAreal(radius)
+
+System.out.println("Arealet til en sirkel med radius " + radius + " er " + resultat);
+
+
+}
+
+
+
+
+
+
