@@ -121,7 +121,6 @@ public static void Main(String[] args) {
     	}
 }
 
-@Override 
 public int compreTo(Student other) {
 	int lastNameComparison = this.etternavn.compareTo(other.etternavn);
 	
@@ -129,7 +128,7 @@ public int compreTo(Student other) {
 		return lastNameComparison;
 	}
 	
-	return this.fornavn.comapreTo(other.fornavn)
+	return this.navn.comapreTo(other.navn)
 }
 
 
