@@ -69,7 +69,7 @@ figurer.add(new Rektangel(2,3));
 figurer.add(new Trekant(3));
 
 
-double samletArea = 0;
+double samletAreal = 0;
 
 for (Figur figur : figurer) {
 	samletArea += figur.areal();
@@ -77,6 +77,14 @@ for (Figur figur : figurer) {
 
 System.out.println("Samlet areal" + sametlArea);
 
+
+
+
+
+for (Figur figur : figurer) {
+	figur.tegn();
+	System.out.println();
+}
 
 
 
